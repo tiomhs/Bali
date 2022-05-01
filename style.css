@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+#jumbotron {
+  min-height: 600px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(25, 34, 41, 1)), url(asset/jumbo.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.hiro h1 {
+  font-size: 80px;
+  margin-top: 50%;
+}
+
+.martop {
+  margin-top: 80px;
+}
+
+#jumbotron {
+  position: relative;
+}
+
+#jumbotron .fitur {
+  position: absolute;
+  top: 90%;
+  bottom: 0;
+}
+
+.line {
+  border-bottom: 1px solid #fff;
+  transition: ease 0.5s;
+}
+
+.line:hover {
+  color: red;
+  border-bottom: solid orangered;
+}
+
+#page2 {
+  padding-top: 150px;
+  min-height: 700px;
+  background-color: #192229;
+  opacity: 1;
+}
+
+.imgCard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(asset/bedugul.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.imgCard1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(asset/jatiluwih.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.imgCard2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(asset/gwk.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.imgCard3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(asset/pantai.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.capCard {
+  margin-top: 90%;
+}
+
+#page3 {
+  min-height: 600px;
+  background-image: linear-gradient(rgba(25, 34, 41, 1), rgba(0, 0, 0, 0)), url(asset/aurora.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.fsize {
+  font-size: 60px;
+}
+
+.vid {
+  width: 350px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .vid {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fsize {
+    font-size: 50px;
+  }
+  .vid {
+    max-width: 220px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .vid {
+    max-width: 300px;
+  }
+  .hiro h1 {
+    font-size: 60px;
+  }
+}
