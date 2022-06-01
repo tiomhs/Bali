@@ -95,6 +95,7 @@
 
 #page3 {
   min-height: 600px;
+  padding-top: 150px;
   background-image: linear-gradient(rgba(25, 34, 41, 1), rgba(0, 0, 0, 0)), url(asset/aurora.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -102,7 +103,7 @@
 }
 
 .fsize {
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .vid {
@@ -146,5 +147,9 @@
   }
   div.col-sm-4.col-12 {
     font-size: 15px;
+  }
+
+  #page2 {
+    padding-top: 75px;
   }
 }
